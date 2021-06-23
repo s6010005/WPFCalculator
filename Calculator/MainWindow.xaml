@@ -45,6 +45,7 @@
                 Grid.Row="2"
                 Grid.Column="2"/>
         <Button x:Name="divisionBtn"
+                Click="OperationButton_Click"
                 Content="/"
                 Margin="5"
                 Grid.Row="2"
@@ -67,6 +68,7 @@
                 Grid.Row="3"
                 Grid.Column="2"/>
         <Button x:Name="multiplyBtn"
+                Click="OperationButton_Click"
                 Content="*"
                 Margin="5"
                 Grid.Row="3"
@@ -89,6 +91,7 @@
                 Grid.Row="4"
                 Grid.Column="2"/>
         <Button x:Name="minusBtn"
+                Click="OperationButton_Click"
                 Content="-"
                 Margin="5"
                 Grid.Row="4"
@@ -111,7 +114,7 @@
                 Grid.Row="5"
                 Grid.Column="2"/>
         <Button x:Name="plusBtn"
-                Content="+"
+                Click="OperationButton_Click"
                 Margin="5"
                 Grid.Row="5"
                 Grid.Column="3"/>
